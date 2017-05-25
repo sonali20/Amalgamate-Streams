@@ -1,0 +1,9 @@
+Given n streams of integers in increasing order, the class 'amalgamatedStreams' (derived from 'minStream') generates a combined stream of integers in increasing order. 
+
+tester.cpp is written to test the class.
+
+Build command - 
+g++ -std=c++11 -o tester tester.cpp ./src/amalgamatedStream.cpp ./src/inputMinStream.cpp -I ./include
+
+Run command - 
+./tester
